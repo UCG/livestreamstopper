@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("livestream_stop")]
+[assembly: AssemblyTitle("livestream_stops")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("livestream_stop")]
+[assembly: AssemblyProduct("livestream_stops")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("b72e00f1-1924-4344-8543-5618a1b030ba")]
+[assembly: Guid("6774f55c-865d-4420-9d1e-9da01dad1a23")]
 
 // Version information for an assembly consists of the following four values:
 //

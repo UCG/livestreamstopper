@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B72E00F1-1924-4344-8543-5618A1B030BA}</ProjectGuid>
+    <ProjectGuid>{6774F55C-865D-4420-9D1E-9DA01DAD1A23}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>livestream_stop</RootNamespace>
-    <AssemblyName>livestream_stop</AssemblyName>
+    <RootNamespace>livestream_stops</RootNamespace>
+    <AssemblyName>livestream_stops</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -56,6 +56,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Form11.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

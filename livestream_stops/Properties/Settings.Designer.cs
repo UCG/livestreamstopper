@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace livestream_stop.Properties
+namespace livestream_stops.Properties
 {
 
 
