@@ -52,9 +52,20 @@ namespace livestream_stops
             myTimer.Enabled = true;
 
             await Task.Delay(wait_time);
-            MessageBox.Show("wait time: " + TextBox1.Text + " seconds");
+           // MessageBox.Show("wait time: " + TextBox1.Text + " seconds");
+            //SubmitButton.Enabled = true;
 
-            SubmitButton.Enabled = true;
+            //simulate FTB keypress
+            SendKeys.Send("{INSERT}");
+            MessageBox.Show("pressed Insert Key after " + TextBox1.Text + " seconds");
+
+            //wait 30 seconds
+            await Task.Delay(30000);
+
+            //simulate stream keypress
+            SendKeys.Send("{END}");
+            MessageBox.Show("Pressed Enter Key after 30 seconds");
+
         }
 
     }
